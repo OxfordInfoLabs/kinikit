@@ -1,0 +1,16 @@
+{
+  "require": {
+    "oxil/kinikit-mvc": "dev-master",
+    "oxil/kinikit-persistence": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "process-timeout": 0,
+    "source-directory": "src"
+  },
+  "scripts": {
+    "serve": "php -S 127.0.0.1:5000 -t src",
+    "clean-database": "Kinikit\\Persistence\\Tools\\DBInstaller::runFromComposer",
+    "test-data": "Kinikit\\Persistence\\Tools\\TestDataInstaller::runFromComposer"
+  }
+}

@@ -1,0 +1,9 @@
+#Main Kinikit Config file
+
+application.name = New Application
+application.namespace = NewApp
+
+default.decorator = Main
+
+db.provider = sqlite3
+db.filename = ../db/new-app.db
