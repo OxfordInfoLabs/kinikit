@@ -1,4 +1,17 @@
 {
+  "name": "oxil/kinikit",
+  "version": "0.1",
+  "description": "Kinikit - PHP Application development framework",
+  "keywords": [
+    "PHP",
+    "application",
+    "mvc",
+    "json webservices",
+    "webservices",
+    "orm",
+    "persistence framework"
+  ],
+  "homepage": "https://kinikit.com",
   "require": {
     "oxil/kinikit-mvc": "dev-master",
     "oxil/kinikit-persistence": "dev-master"
