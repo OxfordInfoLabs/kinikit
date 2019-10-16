@@ -7,11 +7,18 @@
 
 <body>
 
+<div class="container">
+
 <h1>New Kinikit Application</h1>
+    <i>This header area is populated in the main decorator</i>
 
 <hr>
 
+
 {{content}}
+
+
+</div>
 
 </body>
 
