@@ -15,7 +15,7 @@
     {{#examples}}
     <tr>
         <td>{{comment}}</td>
-        <td>{{submitted}}</td>
+        <td>{{submittedString}}</td>
     </tr>
     {{/examples}}
     </tbody>

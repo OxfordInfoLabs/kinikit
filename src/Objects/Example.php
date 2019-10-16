@@ -43,5 +43,13 @@ class Example extends ActiveRecord {
         return $this->submitted;
     }
 
-    
+    /**
+     * Convert to a string rep
+     *
+     * @return string
+     */
+    public function getSubmittedString() {
+        return $this->submitted ? $this->submitted->format("d/m/Y") : "N/A";
+    }
+
 }
